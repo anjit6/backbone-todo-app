@@ -1,0 +1,12 @@
+<div class="view">
+	<input type='checkbox'
+		<% if (status === 1) {
+			print('checked')
+		} %>
+	/>
+	<span class='task_text <% if (status === 1) { print('complete') } else print('incomplete') %>'><%= description %></span>
+	<a class='delete' href='#'>Delete</a>
+</div>
+<div class="edit">
+	<input class="editing" type="text" value="<%= description %>" />
+</div>

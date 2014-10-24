@@ -1,0 +1,15 @@
+<?php
+
+Helpers::$databases['test'] = array(
+    'hostname' => 'localhost',
+    'username' => 'bmgUser',
+    'password' => 'bmg123',
+    'database' => 'proto_bmg'
+);
+
+Helpers::$databases['live'] = array(
+    'hostname' => 'localhost',
+    'username' => 'bmgUser',
+    'password' => 'bmg123',
+    'database' => 'prod_bmg'
+);
